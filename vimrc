@@ -60,6 +60,7 @@ for cfg in split(globpath("$HOME/.vim/bundle-cfg", "*.vim"))
 endfor
 
 set nobackup writebackup backupcopy=yes
+set t_Co=256 | colorscheme xoria256
 
 set laststatus=2
 set splitright splitbelow
@@ -70,7 +71,8 @@ set nowrap listchars+=precedes:<,extends:>
 set ruler
 set smarttab backspace=indent,eol,start
 set mouse=a
-set t_Co=256 | colorscheme xoria256
+set ts=2
+set shiftwidth=2
 
 set wmnu wim=full
 
