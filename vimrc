@@ -70,6 +70,7 @@ set nowrap listchars+=precedes:<,extends:>
 set ruler
 set smarttab backspace=indent,eol,start
 set mouse=a
+set t_Co=256 | colorscheme xoria256
 
 set wmnu wim=full
 
