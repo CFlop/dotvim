@@ -72,6 +72,7 @@ set ruler
 set smarttab backspace=indent,eol,start
 set mouse=a
 set ts=2
+set expandtab
 set shiftwidth=2
 
 set wmnu wim=full
