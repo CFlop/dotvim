@@ -51,6 +51,8 @@ Bundle 'benmills/vimux'
 
 Bundle 'xoria256.vim'
 Bundle 'git://github.com/Lokaltog/vim-powerline.git'
+
+Bundle 'Conque-Shell'
 colorscheme xoria256
 
 filetype plugin indent on
