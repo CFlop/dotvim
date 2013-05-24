@@ -50,6 +50,7 @@ Bundle 'beyondwords/vim-twig'
 Bundle 'benmills/vimux'
 
 Bundle 'xoria256.vim'
+Bundle 'git://github.com/Lokaltog/vim-powerline.git'
 colorscheme xoria256
 
 filetype plugin indent on
@@ -79,3 +80,5 @@ set wmnu wim=full
 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
+
+let g:Powerline_symbols = 'fancy'
