@@ -50,7 +50,7 @@ Bundle 'beyondwords/vim-twig'
 Bundle 'benmills/vimux'
 
 Bundle 'xoria256.vim'
-Bundle 'git://github.com/Lokaltog/vim-powerline.git'
+Bundle 'bling/vim-airline'
 
 Bundle 'Conque-Shell'
 colorscheme xoria256
@@ -83,4 +83,11 @@ set wmnu wim=full
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
-let g:Powerline_symbols = 'fancy'
+set guifont=Liberation\ Mono\ Powerline\ 10
+set encoding=utf-8
+
+let g:airline_powerline_fonts = 1
+
+if $COLORTERM == 'gnome-terminal'
+  set t_Co=256
+endif
