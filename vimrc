@@ -36,6 +36,7 @@ Bundle 'derekwyatt/vim-scala'
 
 Bundle 'indenthaskell.vim'
 Bundle 'syntaxhaskell.vim'
+Bundle 'kchmck/vim-coffee-script'
 
 Bundle 'L9'
 Bundle 'FuzzyFinder'
