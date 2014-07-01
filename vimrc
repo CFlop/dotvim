@@ -30,8 +30,6 @@ Bundle 'ujihisa/neco-ghc'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 
-Bundle 'tmallen/proj-vim'
-
 Bundle 'derekwyatt/vim-scala'
 
 Bundle 'indenthaskell.vim'
@@ -44,7 +42,7 @@ Bundle 'FuzzyFinder'
 Bundle 'sudo.vim'
 
 Bundle 'xml.vim'
-Bundle 'mattn/zencoding-vim'
+Bundle 'mattn/emmet-vim'
 
 Bundle 'beyondwords/vim-twig'
 
