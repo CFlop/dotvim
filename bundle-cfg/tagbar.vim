@@ -3,7 +3,7 @@ nnoremap <silent> <F10> :TagbarToggle<CR>
 let g:tagbar_type_php = {
 	\ 'replace' : 1,
 	\ 'ctagsargs' : '-f - ',
-	\ 'ctagsbin' : 'ptags',
+	\ 'ctagsbin' : 'phptags',
 	\ 'sro' : '::',
 	\ 'kinds' : [
 		\ 'n:namespace:0:1',
