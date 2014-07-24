@@ -82,7 +82,7 @@ set wmnu wim=full
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
-set guifont=Liberation\ Mono\ Powerline\ 10
+set guifont=Liberation\ Mono\ Powerline\ 8
 set encoding=utf-8
 
 let g:airline_powerline_fonts = 1
