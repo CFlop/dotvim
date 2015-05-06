@@ -1,1 +1,1 @@
-nnoremap <silent> <F9> :NERDTreeToggle<CR>
+nnoremap <silent> <S-F9> :NERDTreeToggle<CR>

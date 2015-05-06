@@ -1,4 +1,4 @@
-nnoremap <silent> <F10> :TagbarToggle<CR>
+nnoremap <silent> <S-F12> :TagbarToggle<CR>
 
 let g:tagbar_type_php = {
 	\ 'replace' : 1,

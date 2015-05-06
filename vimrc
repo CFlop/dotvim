@@ -50,8 +50,11 @@ Bundle 'benmills/vimux'
 
 Bundle 'xoria256.vim'
 Bundle 'bling/vim-airline'
+Bundle 'ryanoasis/vim-webdevicons'
 
 Bundle 'Conque-Shell'
+Bundle 'joonty/vdebug'
+
 colorscheme xoria256
 
 filetype plugin indent on
@@ -76,13 +79,14 @@ set mouse=a
 set ts=2
 set expandtab
 set shiftwidth=2
+set hlsearch
 
 set wmnu wim=full
 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
-set guifont=Liberation\ Mono\ Powerline\ 8
+set guifont=Literation\ Mono\ Powerline\ Plus\ Nerd\ File\ Types\ Mono\ 8
 set encoding=utf-8
 
 let g:airline_powerline_fonts = 1
