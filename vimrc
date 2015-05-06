@@ -94,3 +94,21 @@ let g:airline_powerline_fonts = 1
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
 endif
+
+if executable('coffeetags')
+  let g:tagbar_type_coffee = {
+        \ 'ctagsbin' : 'coffeetags',
+        \ 'ctagsargs' : '',
+        \ 'kinds' : [
+        \ 'f:functions',
+        \ 'o:object',
+        \ ],
+        \ 'sro' : ".",
+        \ 'kind2scope' : {
+        \ 'f' : 'object',
+        \ 'o' : 'object',
+        \ }
+        \ }
+endif
+
+let g:fugitive_git_executable = 'LANG=en_US.UTF8 git'
