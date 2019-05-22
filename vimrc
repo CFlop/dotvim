@@ -5,56 +5,58 @@ filetype off
 
 let mapleader = "\\"
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
-Bundle 'Align'
+Plugin 'Align'
 
-Bundle 'cscope_macros.vim'
-Bundle 'majutsushi/tagbar'
+Plugin 'cscope_macros.vim'
+Plugin 'majutsushi/tagbar'
 
-Bundle 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 
-Bundle 'tpope/vim-commentary'
-Bundle 'tpope/vim-unimpaired'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-surround'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-unimpaired'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
 
-Bundle 'Shougo/vimproc'
-Bundle 'Shougo/neocomplcache'
-Bundle 'Shougo/neosnippet'
-Bundle 'ujihisa/neco-ghc'
+Plugin 'Shougo/vimproc'
+Plugin 'Shougo/neocomplcache'
+Plugin 'Shougo/neosnippet'
+Plugin 'ujihisa/neco-ghc'
 
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
 
-Bundle 'derekwyatt/vim-scala'
+Plugin 'derekwyatt/vim-scala'
 
-Bundle 'indenthaskell.vim'
-Bundle 'syntaxhaskell.vim'
-Bundle 'kchmck/vim-coffee-script'
+Plugin 'indenthaskell.vim'
+Plugin 'syntaxhaskell.vim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'posva/vim-vue'
 
-Bundle 'L9'
-Bundle 'FuzzyFinder'
+Plugin 'L9'
+Plugin 'FuzzyFinder'
 
-Bundle 'sudo.vim'
+Plugin 'sudo.vim'
 
-Bundle 'xml.vim'
-Bundle 'mattn/emmet-vim'
+Plugin 'xml.vim'
+Plugin 'mattn/emmet-vim'
 
-Bundle 'beyondwords/vim-twig'
+Plugin 'beyondwords/vim-twig'
 
-Bundle 'benmills/vimux'
+Plugin 'benmills/vimux'
 
-Bundle 'xoria256.vim'
-Bundle 'bling/vim-airline'
-Bundle 'ryanoasis/vim-devicons'
+Plugin 'xoria256.vim'
+Plugin 'bling/vim-airline'
+Plugin 'ryanoasis/vim-devicons'
 
-Bundle 'Conque-Shell'
-Bundle 'joonty/vdebug'
+Plugin 'Conque-Shell'
+Plugin 'joonty/vdebug'
 
+call vundle#end()
 filetype plugin indent on
 syntax on
 
