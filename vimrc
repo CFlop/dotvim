@@ -45,16 +45,9 @@ Plugin 'sudo.vim'
 Plugin 'xml.vim'
 Plugin 'mattn/emmet-vim'
 
-Plugin 'beyondwords/vim-twig'
-
-Plugin 'benmills/vimux'
-
 Plugin 'xoria256.vim'
 Plugin 'bling/vim-airline'
 Plugin 'ryanoasis/vim-devicons'
-
-Plugin 'Conque-Shell'
-Plugin 'joonty/vdebug'
 
 call vundle#end()
 filetype plugin indent on
