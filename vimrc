@@ -25,15 +25,10 @@ Plugin 'tpope/vim-surround'
 Plugin 'Shougo/vimproc'
 Plugin 'Shougo/neocomplcache'
 Plugin 'Shougo/neosnippet'
-Plugin 'ujihisa/neco-ghc'
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 
-Plugin 'derekwyatt/vim-scala'
-
-Plugin 'indenthaskell.vim'
-Plugin 'syntaxhaskell.vim'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'posva/vim-vue'
 
