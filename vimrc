@@ -32,12 +32,18 @@ Plugin 'FuzzyFinder'
 
 Plugin 'sudo.vim'
 
+Plugin 'leafOfTree/vim-vue-plugin'
+Plugin 'pangloss/vim-javascript'
+
 Plugin 'xml.vim'
 Plugin 'mattn/emmet-vim'
 
 Plugin 'xoria256.vim'
 Plugin 'bling/vim-airline'
 Plugin 'ryanoasis/vim-devicons'
+
+Plugin 'heavenshell/vim-jsdoc'
+Plugin 'ycm-core/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on
@@ -69,6 +75,8 @@ set wmnu wim=full
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
+nmap <silent> <C-l> <Plug>(jsdoc)
+
 let g:airline_powerline_fonts = 1
 
 if $COLORTERM == 'gnome-terminal'
@@ -91,4 +99,26 @@ if executable('coffeetags')
         \ }
 endif
 
+" Start autocompletion after 4 chars
+ let g:ycm_min_num_of_chars_for_completion = 4
+ let g:ycm_min_num_identifier_candidate_chars = 4
+ let g:ycm_enable_diagnostic_highlighting = 0
+" Don't show YCM's preview window [ I find it really annoying ]
+ set completeopt-=preview
+ let g:ycm_add_preview_to_completeopt = 0
+
 let g:fugitive_git_executable = 'LANG=en_US.UTF8 git'
+
+let g:vim_vue_plugin_config = {
+      \'syntax': {
+      \   'template': ['html'],
+      \   'script': ['javascript'],
+      \   'style': ['scss'],
+      \},
+      \'full_syntax': [],
+      \'initial_indent': [],
+      \'attribute': 0,
+      \'keyword': 0,
+      \'foldexpr': 0,
+      \'debug': 1,
+      \}
