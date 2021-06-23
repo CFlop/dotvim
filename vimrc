@@ -22,15 +22,10 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 
-Plugin 'Shougo/vimproc'
-Plugin 'Shougo/neocomplcache'
-Plugin 'Shougo/neosnippet'
-
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 
 Plugin 'kchmck/vim-coffee-script'
-Plugin 'posva/vim-vue'
 
 Plugin 'L9'
 Plugin 'FuzzyFinder'
