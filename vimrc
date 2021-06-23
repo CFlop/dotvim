@@ -33,7 +33,7 @@ Plugin 'FuzzyFinder'
 Plugin 'sudo.vim'
 
 Plugin 'leafOfTree/vim-vue-plugin'
-Plugin 'pangloss/vim-javascript'
+Plugin 'yuezk/vim-js'
 
 Plugin 'xml.vim'
 Plugin 'mattn/emmet-vim'
