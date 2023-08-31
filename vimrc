@@ -76,6 +76,9 @@ nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
 nmap <silent> <C-l> <Plug>(jsdoc)
+nmap con :set number!<cr>
+nmap cox :set cursorline!<cr>
+nmap coy :set cursorcolumn!<cr>
 
 let g:airline_powerline_fonts = 1
 
